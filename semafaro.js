@@ -4,7 +4,8 @@ let colorIndex = 0
 let intervalId = null
 
 const trafficLight = (event) => {
-turnOn[event.target.id]()
+    stopAutomatic()
+    turnOn[event.target.id]() 
 }
 
 /* 
